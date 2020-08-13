@@ -3,16 +3,20 @@ function LinkedList() {
   this.tail = null;
 }
 
-function Node(val) {
+function Node(val) {  
   this.value = val;
   this.next = null;
 }
 
 // adds node to end of list
-LinkedList.prototype.push = function(value) {
+LinkedList.prototype.push = function(value) { // LinkedList.push(B)
+// Head should be equal to the value of the first node
+//
 
 };
-
+// Node.value = A
+// Node.next(B)// B
+// Node.next(LinkedList.tail)
 // returns true if value is present in the list
 LinkedList.prototype.contains = function(value) {
 
